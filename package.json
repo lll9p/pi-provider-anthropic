@@ -14,12 +14,12 @@
         ]
     },
     "dependencies": {
-        "@anthropic-ai/sdk": "^0.70.0",
-        "@mariozechner/pi-ai": "^0.57.1",
-        "@mariozechner/pi-coding-agent": "^0.57.1"
+        "@anthropic-ai/sdk": "^0.70.0"
     },
     "devDependencies": {
         "prettier": "^3.0.0",
-        "typescript": "^5.0.0"
+        "typescript": "^5.0.0",
+        "@mariozechner/pi-ai": "^0.57.1",
+        "@mariozechner/pi-coding-agent": "^0.57.1"
     }
 }
