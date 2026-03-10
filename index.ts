@@ -908,7 +908,7 @@ function mapStopReason(reason: Anthropic.Messages.StopReason | string): StopReas
 }
 
 export default function (pi: ExtensionAPI) {
-    pi.registerProvider("anthropic", {
+    pi.registerProvider("anthropic-private", {
         baseUrl: process.env.ANTHROPIC_BASE_URL || "https://api.anthropic.com",
         apiKey: "ANTHROPIC_API_KEY",
         api: "anthropic-messages",
